@@ -1,0 +1,261 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-08-26T03:40:44.649Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5129770200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful registration with valid details",
+        "description": "",
+        "id": "to-test-registration-functionality;successful-registration-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 210339500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1448521800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "StepDefinitions.StepDefination3.the_user_is_on_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2265897500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters name \"Sanjay Singh Mehara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sanjay Singh Mehara\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_enters_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2120794000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters email \"mehrasanjay619@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mehrasanjay619@gmail.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_enters_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2110534900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user selects gender",
+            "match": {
+              "location": "StepDefinitions.StepDefination3.the_user_selects_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2088385300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters mobile number \"0000000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0000000000\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_enters_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072914600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user enters date of birth \"15-07-2001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-07-2001\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_enters_date_of_birth(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2347450400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enters subjects \"Maths,Computer Science\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Maths,Computer Science\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_enters_subjects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2087165500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user selects hobbies",
+            "match": {
+              "location": "StepDefinitions.StepDefination3.the_user_selects_hobbies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2067591100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user uploads file \"C:\\\\Users\\\\my pc\\\\OneDrive\\\\Desktop\\\\Aadhar.pdf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\\\Users\\\\my pc\\\\OneDrive\\\\Desktop\\\\Aadhar.pdf\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_uploads_file(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2136124000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters current address \"Nainital, Uttarakhand\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nainital, Uttarakhand\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_enters_current_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2109172600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user selects state \"NCR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NCR\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_selects_state(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2111744000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects city \"Agra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agra\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.StepDefination3.the_user_selects_city(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132491200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user submits the registration form",
+            "match": {
+              "location": "StepDefinitions.StepDefination3.the_user_submits_the_registration_form()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "to test registration functionality",
+    "description": "",
+    "id": "to-test-registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Registration.feature",
+    "tags": []
+  }
+]

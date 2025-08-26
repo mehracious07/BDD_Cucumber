@@ -44,7 +44,7 @@ public void enterEmail(String email) {
     driver.findElement(emailInput).sendKeys(email);
 }
 
-public void selectGender(String gender) {
+public void selectGender() {
     driver.findElement(genderInput).click();
 }
 
@@ -56,8 +56,11 @@ public void enterDOB(String dob) {
     driver.findElement(DOB).sendKeys(dob);
 }
 
-public void enterHobbies(String hobbies) {
-    driver.findElement(Hobbies).sendKeys(hobbies);
+//public void enterHobbies(String hobbies) {
+//    driver.findElement(Hobbies).sendKeys(hobbies);
+//}
+public void selectHobbies() {
+	driver.findElement(Hobbies).click();
 }
 
 public void enterSubjects(String subjects) {
@@ -86,7 +89,7 @@ public void clickSubmit() {
     driver.findElement(button).click();
 }
 
-public void verifyRegistrationSuccess() {
-    System.out.println("✅ Registration Successful!");
-}
+//public void verifyRegistrationSuccess() {
+//    System.out.println("✅ Registration Successful!");
+//}
 }
